@@ -1,0 +1,96 @@
+body{
+    background-color: #f0f2f5;;
+}
+
+/* After face book image box */
+.box{
+    background-color:white;
+    height: 310px;
+    width: 400px;
+    margin-left: 34%;
+    border-radius: 10px;
+    box-shadow: lightblue;
+    /* box-shadow: 0 0 12px lightgray; */
+        /* box-shadow: 0 0 2581px black; */
+        box-shadow: 51px 51px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+/* Face book image  */
+.faceimg{
+    align-items: center;
+    /* margin-top: 41px;
+    margin-right: 0px;
+    margin-bottom: -23px;
+    margin-left: 41%;
+    width:240px; */
+     width: 240px;
+     height: 15vh;
+     margin-bottom: -23px;
+    margin-top: 1.9%;
+    margin-left: 40%;  
+}
+/* Log in to Facebook */
+.para{
+
+    margin-left: -9px;
+    margin-top: 25px;
+    margin-bottom: -13px;
+    font-size: 18px;
+    line-height: 22px;
+    padding:16px ;
+    font-family: sans-serif;
+    text-align: center;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased
+}
+/* Email or phone number */
+.mail{
+    color: gray;
+      border: 1px solid #dddfe2;   /* Add border for visualization */
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    margin-left: 4%;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased
+}
+/* Password box */
+.pass{
+     color: gray; 
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    position: static;
+    margin-left: 4%;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased
+
+}
+/* Log in  */
+.login{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color: white;
+    text-align: center;
+    margin-left: 4%;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased
+}
+/*  forget password class */
+.forgetpassword{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased
+}
